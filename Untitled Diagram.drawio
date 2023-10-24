@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T05:08:16.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 OPR/103.0.0.0" etag="LIpr-MriGjycY79peIih" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-24T06:29:42.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 OPR/103.0.0.0" etag="82xZZ8vx5dzV-zCEYAA1" version="22.0.6" type="github">
   <diagram name="Page-1" id="JIlZDkIPc6fDsJDhfCHW">
     <mxGraphModel dx="1112" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="wo9oIifTvgYb-TYNg8Vq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1cqaB1Q_qEM46uVqkkQ3-4" target="1cqaB1Q_qEM46uVqkkQ3-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1cqaB1Q_qEM46uVqkkQ3-4" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1cqaB1Q_qEM46uVqkkQ3-4" value="Internet / LL" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="255" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1cqaB1Q_qEM46uVqkkQ3-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -70,17 +70,30 @@
         <mxCell id="wo9oIifTvgYb-TYNg8Vq-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/devices-42/512/Normal_LCD-128.png" vertex="1" parent="1">
           <mxGeometry x="630" y="370" width="69.12" height="69.12" as="geometry" />
         </mxCell>
-        <mxCell id="wo9oIifTvgYb-TYNg8Vq-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="wo9oIifTvgYb-TYNg8Vq-16" value="Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="630" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wo9oIifTvgYb-TYNg8Vq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1cqaB1Q_qEM46uVqkkQ3-4" target="wo9oIifTvgYb-TYNg8Vq-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wo9oIifTvgYb-TYNg8Vq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wo9oIifTvgYb-TYNg8Vq-20" target="wo9oIifTvgYb-TYNg8Vq-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="wo9oIifTvgYb-TYNg8Vq-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/mobile-phone-smart-screen-128.png" vertex="1" parent="1">
           <mxGeometry x="570" y="670" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="wo9oIifTvgYb-TYNg8Vq-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/devices-42/512/Normal_LCD-128.png" vertex="1" parent="1">
           <mxGeometry x="575" y="620" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wo9oIifTvgYb-TYNg8Vq-20" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wo9oIifTvgYb-TYNg8Vq-21" value="Kelaniya" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wo9oIifTvgYb-TYNg8Vq-22" value="1. NDA&amp;nbsp;&lt;br&gt;2. Dialog Team assigned&amp;nbsp;&lt;br&gt;3. Sizing and Internet" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
